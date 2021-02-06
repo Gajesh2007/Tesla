@@ -1,0 +1,36 @@
+.button {
+    background-color: rgba(23,26, 32, 0.8);
+    height:48px;
+    width: 256px;
+    margin: 8px;
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius:100px;
+    opacity: 0.85;
+}
+
+.button>a {
+    text-decoration: none;
+    color: white;
+    font-size:12px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button_white {
+    background-color:white;
+    opacity:0.65;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button_white>a{
+    color:black;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
